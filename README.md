@@ -9,6 +9,7 @@ we have keep a folder format as follows
 please keep your training data and test data in the same way.
 
 -/root 
+
        -mymodel.py
        -aygmentation.py
        -training.py
