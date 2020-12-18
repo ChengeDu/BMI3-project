@@ -5,4 +5,20 @@ this is a command line executable code. Please first run mymodel.py and augmenta
 to run the actual traning model, Please write as follows：
        $python training.py - r your root path of this folder.
 
-we have keep a 
+we have keep a folder format as follows
+please keep your training data and test data in the same way.
+
+-/root 
+       -mymodel.py
+       -aygmentation.py
+       -training.py
+       -/test
+              -/test_image
+              -/test_label
+              -/predictioin
+       -/train
+              -/train_image
+              -/train_label
+              -/val_image
+              -/val_label
+              
