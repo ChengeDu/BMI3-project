@@ -28,7 +28,7 @@ def contrast(img):
     return(cg)
 
 
-image_path = "/Users/joanna/Downloads/unet-master/data/membrane/train/image/*.png"
+image_path = "/train/image/*.png"
 image_coll = io.ImageCollection(image_path)
 contr_list = []
 
